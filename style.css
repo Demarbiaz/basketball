@@ -1,1 +1,49 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+h1, h2 {
+    text-align: center;
+    color: #d35400;
+}
+
+p {
+    font-size: 16px;
+}
+
+#main-header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.intro-text {
+    text-align: center;
+    font-style: italic;
+}
+
+.box {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#skills {
+    border: 2px solid orange;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+}
