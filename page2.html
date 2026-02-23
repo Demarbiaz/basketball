@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite Players</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-4">
         <h1>My Favorite Basketball Players</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Return to Home Page</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Top Players I Like Watching</h2>
-            <ul>
-                <li>LeBron James</li>
-                <li>Stephen Curry</li>
-                <li>Kevin Durant</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Why They Stand Out</h2>
-            <p>
-                These players are skilled, hardworking, and help their teams win games.
-                They also inspire younger athletes.
-            </p>
-        </section>
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">LeBron James</h5>
+                        <p class="card-text">Strong leader and all-around player.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Stephen Curry</h5>
+                        <p class="card-text">One of the best shooters ever.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kevin Durant</h5>
+                        <p class="card-text">Elite scorer with great skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="index.html" class="btn btn-dark">Back to Home</a>
+        </div>
     </main>
-    <footer>
-        <p>This page was updated to improve accessibility and usability.</p>
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>Bootstrap styled page</p>
     </footer>
 </body>
 </html>
